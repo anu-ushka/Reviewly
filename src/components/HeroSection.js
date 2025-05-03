@@ -1,4 +1,3 @@
-// src/components/HeroSection.js
 import React, { useState } from 'react';
 import './HeroSection.css';
 

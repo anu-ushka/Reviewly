@@ -1,0 +1,10 @@
+.home-wrapper {
+    background: linear-gradient(to right, rgba(24, 59, 106, 0.7), #ffffff);
+    min-height: 100vh;
+    padding-top: 20px;
+  }
+  
+  .hero-wrapper {
+    padding: 20px;
+  }
+  
