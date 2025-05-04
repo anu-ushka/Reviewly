@@ -3,7 +3,7 @@ import './KeySellingPoints.css';
 
 const KeySellingPoints = () => {
   return (
-    <div>
+    <section className="key-sell-wrapper">
       <div className="key-sell-section">
         <div className="key-sell-left">
           <h3>Key Selling Point 1</h3>
@@ -16,7 +16,6 @@ const KeySellingPoints = () => {
         </div>
       </div>
 
-
       <div className="key-sell-section reverse">
         <div className="key-sell-left">
           <h3>Key Selling Point 2</h3>
@@ -28,7 +27,7 @@ const KeySellingPoints = () => {
           <img src="https://via.placeholder.com/400x300" alt="Key Point 2" />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
