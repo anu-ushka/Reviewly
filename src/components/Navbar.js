@@ -10,7 +10,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <Link to="/" className="logo">MyLogo</Link>
+        <Link to="/" className="logo">Reviewly</Link>
 
         <div className={`nav-links ${isOpen ? 'open' : ''}`}>
           <Link to="/">Home</Link>

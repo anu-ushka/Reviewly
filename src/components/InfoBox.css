@@ -1,0 +1,30 @@
+.info-box-container {
+    background-color: #244855; 
+    padding: 40px 20px; 
+    display: flex;
+    justify-content: center;
+  }
+  
+  .info-box-wrapper {
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
+    width: 100%;
+  }
+  
+  .info-box {
+    background-color: #874F41; 
+    color: #FBE9D0; 
+    padding: 25px 30px;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .info-box:hover {
+    background-color: #E64833; 
+    transform: scale(1.05);
+  }
+  

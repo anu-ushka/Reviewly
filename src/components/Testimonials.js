@@ -1,36 +1,37 @@
 import React from 'react';
 import './Testimonials.css';
+import customerImages from '../assets/images';
 
 const testimonials = [
   {
     name: 'Aisha Verma',
     review: 'This service completely changed the way I shop. Highly recommended!',
-    photo: 'https://via.placeholder.com/80'
+    photo: customerImages[0]
   },
   {
     name: 'Ravi Kumar',
     review: 'Excellent experience and top-notch support throughout.',
-    photo: 'https://via.placeholder.com/80'
+    photo: customerImages[1]
   },
   {
     name: 'Sara Khan',
     review: 'The interface is clean and super easy to use!',
-    photo: 'https://via.placeholder.com/80'
+    photo: customerImages[2]
   },
   {
     name: 'Rahul Joshi',
     review: 'One of the most reliable platforms I’ve used.',
-    photo: 'https://via.placeholder.com/80'
+    photo: customerImages[3]
   },
   {
     name: 'Aisha Verma',
     review: 'This service completely changed the way I shop. Highly recommended!',
-    photo: 'https://via.placeholder.com/80'
+    photo: customerImages[4]
   },
   {
     name: 'Aisha Verma',
     review: 'This service completely changed the way I shop. Highly recommended!',
-    photo: 'https://via.placeholder.com/80'
+    photo: customerImages[5]
   }
 ];
 

@@ -6,9 +6,9 @@ const KeySellingPoints = () => {
     <section className="key-sell-wrapper">
       <div className="key-sell-section">
         <div className="key-sell-left">
-          <h3>Key Selling Point 1</h3>
+          <h3>Honest Reviews from Real Users</h3>
           <p>
-            Short description explaining the benefit or value proposition of the first key selling point. Focus on user benefits.
+          Gain insights from genuine user experiences to make confident buying decisions—no fake or paid reviews.
           </p>
         </div>
         <div className="key-sell-right">
@@ -18,9 +18,9 @@ const KeySellingPoints = () => {
 
       <div className="key-sell-section reverse">
         <div className="key-sell-left">
-          <h3>Key Selling Point 2</h3>
+          <h3>Rate, Review & Be Heard</h3>
           <p>
-            Description of the second selling point, highlighting user benefits.
+          Your opinion matters! Share your thoughts on products and help others choose smarter, just like you.
           </p>
         </div>
         <div className="key-sell-right">

@@ -2,12 +2,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #244855;
-  padding: 20px 0;
+  padding-top: 80px;
 }
 
 .search-input {
-  padding: 12px 18px;
+  padding: 18px 160px;
   font-size: 1rem;
   border: none;
   border-radius: 30px 0 0 30px;
@@ -20,7 +19,7 @@
 }
 
 .search-button {
-  padding: 12px 20px;
+  padding: 18px 23px;
   background-color: #E64833;
   border: none;
   border-radius: 0 30px 30px 0;

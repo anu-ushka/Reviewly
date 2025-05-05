@@ -1,14 +1,18 @@
 .testimonials-section {
-    background-color: #244855;
-    padding: 60px 20px;
-    color: #FBE9D0;
-  }
+  background-color: #244855;
+  padding: 50px 20px;
+  color: #FBE9D0;
+  overflow: visible; 
+  position: relative;
+  z-index: 1;
+}
+
   
   .testimonials-section h2 {
     color: #FBE9D0;
     font-size: 2rem;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
   
   
@@ -31,12 +35,15 @@
     flex: 0 0 300px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    z-index: 2;
+    position: relative; 
   }
   
 
   .testimonial-card:hover {
     transform: translateY(-8px) scale(1.02);
     box-shadow: 0 12px 24px rgba(230, 72, 51, 0.4);
+    z-index: 10;
   }
   
   
@@ -46,7 +53,12 @@
     border-radius: 50%;
     border: 2px solid #E64833;
     margin-bottom: 10px;
+  
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
   }
+  
   
   .testimonial-text {
     font-size: 1rem;
