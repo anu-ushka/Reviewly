@@ -26,12 +26,12 @@
 .hero-content h1 {
   font-size: 4rem;
   margin-bottom: 10px;
-  transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for color and scale */
+  transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .hero-content h1:hover {
-  color: #E64833; /* Change color on hover */
-  transform: scale(1.05); /* Slight zoom-in effect */
+  color: #E64833;
+  transform: scale(1.05); 
 }
 
 .hero-content p {
@@ -41,5 +41,5 @@
 }
 
 .hero-content p:hover {
-  color: #244855; /* Muted Teal color for hover effect */
+  color: #244855; 
 }

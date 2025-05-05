@@ -7,7 +7,7 @@ const FeaturedCarousel = () => {
   useEffect(() => {
     fetch('https://fakestoreapi.com/products')
       .then(res => res.json())
-      .then(data => setProducts(data)) // No limiting here, display all products
+      .then(data => setProducts(data))
       .catch(err => console.error('Error fetching products:', err));
   }, []);
 
