@@ -4,7 +4,7 @@ import customerImages from '../assets/images';
 
 const testimonials = [
   {
-    name: 'Aisha Verma',
+    name: 'Veer Singh',
     review: 'This service completely changed the way I shop. Highly recommended!',
     photo: customerImages[0]
   },
@@ -19,18 +19,18 @@ const testimonials = [
     photo: customerImages[2]
   },
   {
-    name: 'Rahul Joshi',
+    name: 'Sukriti Gupta',
     review: 'One of the most reliable platforms I’ve used.',
     photo: customerImages[3]
   },
   {
-    name: 'Aisha Verma',
+    name: 'Aakash Verma',
     review: 'This service completely changed the way I shop. Highly recommended!',
     photo: customerImages[4]
   },
   {
-    name: 'Aisha Verma',
-    review: 'This service completely changed the way I shop. Highly recommended!',
+    name: 'Rohit Sharma',
+    review: 'Excellent experience and top-notch support throughout.',
     photo: customerImages[5]
   }
 ];

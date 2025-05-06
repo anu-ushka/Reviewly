@@ -55,13 +55,6 @@
   color: #FBE9D0;
 }
 
-.hamburger {
-  display: none;
-  font-size: 1.5rem;
-  color: #FBE9D0;
-  cursor: pointer;
-}
-
 @media (max-width: 768px) {
   .nav-links {
     display: none;
@@ -81,7 +74,4 @@
     display: none;
   }
 
-  .hamburger {
-    display: block;
-  }
 }

@@ -12,7 +12,7 @@ const KeySellingPoints = () => {
           </p>
         </div>
         <div className="key-sell-right">
-          <img src="https://via.placeholder.com/400x300" alt="Key Point 1" />
+        <img src="" alt="Key Img 1" />
         </div>
       </div>
 
@@ -24,7 +24,7 @@ const KeySellingPoints = () => {
           </p>
         </div>
         <div className="key-sell-right">
-          <img src="https://via.placeholder.com/400x300" alt="Key Point 2" />
+          <img src="https://via.placeholder.com/400x300" alt="Key Img 2" />
         </div>
       </div>
     </section>
