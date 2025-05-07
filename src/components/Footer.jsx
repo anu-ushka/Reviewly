@@ -15,7 +15,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Contact Us Section */}
         <div className="footer-section">
           <h4>Contact Us</h4>
           <ul>
