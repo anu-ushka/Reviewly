@@ -20,7 +20,7 @@ const testimonials = [
   },
   {
     name: 'Sukriti Gupta',
-    review: 'One of the most reliable platforms I’ve used.',
+    review: "One of the most reliable platforms I've used.",
     photo: customerImages[3]
   },
   {

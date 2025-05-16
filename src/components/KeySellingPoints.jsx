@@ -12,7 +12,7 @@ const KeySellingPoints = () => {
           </p>
         </div>
         <div className="key-sell-right">
-        <img src="" alt="Key Img 1" />
+        <img src="/assets/review_img1.png" alt="Key Img 1" />
         </div>
       </div>
 
