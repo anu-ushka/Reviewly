@@ -1,0 +1,58 @@
+.mission-vision-section {
+    background-color: #874F41;
+    width: 100vw; /* full viewport width */
+    padding: 3rem 1.5rem;
+    box-sizing: border-box;
+    color: #FBE9D0;
+  }
+  
+  .mission-vision-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+  
+  .mission-box, .vision-box {
+    background-color: #FBE9D0; /* light background for boxes */
+    color: #244855; /* dark text inside boxes */
+    flex: 1 1 45%;
+    min-width: 280px;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: default;
+  }
+  
+  .mission-box:hover, .vision-box:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  }
+  
+  .mission-box h2, .vision-box h2 {
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    border-bottom: 3px solid #E64833;
+    padding-bottom: 0.5rem;
+  }
+  
+  .mission-box p, .vision-box p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+  
+  @media (max-width: 768px) {
+    .mission-vision-container {
+      flex-direction: column;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+    .mission-box, .vision-box {
+      flex-basis: 100%;
+    }
+  }
+  

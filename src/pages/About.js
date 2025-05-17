@@ -1,5 +1,16 @@
+import React from 'react';
+import AboutHero from '../AboutComponents/AboutHero';
+import MissionVision from '../AboutComponents/MissionVision';
+import TeamSection from '../AboutComponents/TeamSection';
+
 function About() {
-    return <h2>About Us</h2>;
-  }
-  export default About;
-  
+  return (
+    <>
+      <AboutHero />
+      <MissionVision />
+      <TeamSection/>
+    </>
+  );
+}
+
+export default About;
