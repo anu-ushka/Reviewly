@@ -1,5 +1,15 @@
+import React from 'react';
+import BlogHero from '../BlogComponents/BlogHero'
+import Footer from '../components/Footer';
+
+
 function Blog() {
-    return <h2>Our Blog</h2>;
-  }
-  export default Blog;
-  
+  return (
+    <>
+      <BlogHero />
+      <Footer/>
+    </>
+  );
+}
+
+export default Blog;
