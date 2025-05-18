@@ -1,0 +1,108 @@
+.services-hero {
+    background-image: url('../assets/bg-hero-img.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #fff;
+  }
+  
+  .services-hero-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 4rem 2rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .services-hero-content {
+    max-width: 1200px;
+    display: flex;
+    gap: 3rem;
+    width: 100%;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .services-hero-left {
+    flex: 1;
+    max-width: 600px;
+  }
+  
+  .services-hero-title {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .services-hero-title:hover {
+    color: #f1c40f;
+  }
+  
+  .services-hero-tagline {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    transition: color 0.3s ease;
+  }
+  
+  .services-hero-tagline:hover {
+    color: #fceabb;
+  }
+  
+  .services-hero-button {
+    background-color: #E64833;
+    color: white;
+    padding: 0.8rem 2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .services-hero-button:hover {
+    background-color: #c43d28;
+    transform: translateY(-2px);
+  }
+
+  .services-hero-right {
+    flex: 1;       
+    height: 380px;  
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 2px solid #fff;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.2rem;
+    font-style: italic;
+    max-width: 450px;
+    margin-left: 5rem;
+  }
+  
+  @media (max-width: 768px) {
+    .services-hero-content {
+      flex-direction: column;
+      max-width: 90%;
+    }
+  
+    .services-hero-right {
+      width: 100%;
+      height: 250px;
+      margin-top: 2rem;
+    }
+  
+    .services-hero-left {
+      max-width: 100%;
+    }
+  }
+  

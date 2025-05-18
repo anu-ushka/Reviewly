@@ -2,7 +2,7 @@
     background-image: url('../assets/bg-hero-img.jpg'); 
     background-size: cover;
     background-position: center;
-    min-height: 80vh; /* reduced from 100vh to limit height */
+    min-height: 60vh; /* reduced from 100vh to limit height */
     position: relative;
     margin: 0;
     padding: 0;
@@ -42,7 +42,7 @@
   }
   
   .about-hero-text h1 {
-    font-size: 2.5rem;
+    font-size: 3.3rem;
     margin-bottom: 1rem;
     padding-left: 0;
     margin-left: 0;
