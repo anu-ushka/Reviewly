@@ -1,9 +1,10 @@
 .mission-vision-section {
     background-color: #874F41;
-    width: 100vw; /* full viewport width */
+    width: 100vw;
     padding: 3rem 1.5rem;
     box-sizing: border-box;
     color: #FBE9D0;
+    overflow-x: hidden;
   }
   
   .mission-vision-container {
@@ -16,8 +17,8 @@
   }
   
   .mission-box, .vision-box {
-    background-color: #FBE9D0; /* light background for boxes */
-    color: #244855; /* dark text inside boxes */
+    background-color: #FBE9D0; 
+    color: #244855; 
     flex: 1 1 45%;
     min-width: 280px;
     padding: 2rem;

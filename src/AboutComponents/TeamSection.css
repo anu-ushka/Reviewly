@@ -1,28 +1,36 @@
-.team-section {
-    max-width: 1200px;
-    margin: 2rem auto 4rem;
-    padding: 0 1.5rem;
+  .team-section {
+    width: 100vw;
+    padding: 4rem 1.5rem;
     color: #244855;
+    background-color: #364f30;
+    box-sizing: border-box;
+    overflow-x: hidden;
   }
-  
+
   .team-section h2 {
     font-size: 2rem;
     font-weight: bold;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
     color: #874F41;
+    text-align: center;
   }
+
+  .team-section-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+ 
+.team-carousel {
+  display: flex;
+  overflow-x: auto;
+  gap: 2.5rem;
+  padding-bottom: 1rem;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  padding-left: 0rem;
+  padding-right: 0.5rem;
+}
   
-  /* Horizontal scroll container */
-  .team-carousel {
-    display: flex;
-    overflow-x: auto;
-    gap: 1.5rem;
-    padding-bottom: 1rem;
-    scroll-behavior: smooth;
-    -webkit-overflow-scrolling: touch; /* smooth scrolling on iOS */
-  }
-  
-  /* Hide scrollbar but keep scroll */
   .team-carousel::-webkit-scrollbar {
     height: 8px;
   }
@@ -39,13 +47,13 @@
     scrollbar-color: #874F41 #f1f1f1;
   }
   
-  /* Cards */
+
   .team-card {
     background: #FBE9D0;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     padding: 1.5rem;
-    flex: 0 0 260px; /* fixed width */
+    flex: 0 0 260px; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -58,7 +66,7 @@
     box-shadow: 0 8px 24px rgba(0,0,0,0.15);
   }
   
-  /* Profile photo styling */
+
   .team-photo {
     width: 140px;
     height: 140px;
@@ -68,7 +76,7 @@
     border: 4px solid #874F41;
   }
   
-  /* Name styling */
+
   .team-name {
     font-size: 1.4rem;
     font-weight: 700;
@@ -77,7 +85,7 @@
     text-align: center;
   }
   
-  /* Role styling */
+
   .team-role {
     font-size: 1.1rem;
     font-weight: 600;
@@ -86,7 +94,7 @@
     text-align: center;
   }
   
-  /* Bio styling */
+
   .team-bio {
     font-size: 1rem;
     text-align: center;
@@ -94,7 +102,7 @@
     line-height: 1.4;
   }
   
-  /* Responsive */
+
   @media (max-width: 768px) {
     .team-card {
       flex: 0 0 200px;
