@@ -1,7 +1,7 @@
 import React from 'react';
 import ServicesHero from '../ServicesComponents/ServicesHero';
 import FeaturedReviews from '../ServicesComponents/FeaturedReviews';
-// import ServicesFAQ from '../ServicesComponents/ServicesFAQ'; // coming later
+import FAQSection from '../ServicesComponents/FAQSection';
 import Footer from '../components/Footer';
 
 function Services() {
@@ -9,7 +9,7 @@ function Services() {
     <>
       <ServicesHero />
       <FeaturedReviews/>
-      {/* <ServicesFAQ /> */}
+      <FAQSection/>
       <Footer />
     </>
   );
