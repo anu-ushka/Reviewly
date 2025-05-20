@@ -25,7 +25,7 @@ const AboutHero = () => {
               </div>
               <div className="timeline-item">
                 <div className="timeline-date">7 May, 2025</div>
-                <div className="timeline-content">Mid-evauluation (Progress checked by mentor).</div>
+                <div className="timeline-content">Mid-evauluation (Progress checked by mentor)</div>
               </div>
               <div className="timeline-item">
                 <div className="timeline-date">Currently</div>

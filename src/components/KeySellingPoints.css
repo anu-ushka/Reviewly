@@ -1,84 +1,79 @@
-.key-sell-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px 20px;
-    gap: 30px;
-    background-color: #FBE9D0; 
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .key-sell-section.reverse {
-    flex-direction: row-reverse;
-  }
-  
-  .key-sell-left {
-    flex: 1;
-    max-width: 50%;
-  }
-  
-  .key-sell-left h3 {
-    font-size: 1.8rem;
-    font-weight: 700;
-    color: #244855; 
-    margin-bottom: 15px;
-  }
-  
-  .key-sell-left p {
-    font-size: 1.1rem;
-    color: #874F41; 
-    line-height: 1.6;
-  }
-  
-  .key-sell-right {
-    flex: 1;
-    max-width: 50%;
-  }
-  
-  .key-sell-right img {
-    width: 300px;
-    height: auto;
-    border-radius: 8px;
-    border: 2px solid #E64833; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
+.key-sell-outer-wrapper {
+  background-color: rgba(36, 72, 85, 0.6);
+  width: 100%;
+  padding: 3rem;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
 
-  .key-sell-right img:hover {
-    transform: scale(1.05);
-    transition: transform 0.3s ease-in-out;
-  }
-  
+.key-sell-container {
+  max-width: 1000px;
+  max-height: 600px;
+  margin: 0 auto;
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
 
-  .key-sell-section:first-of-type {
-    margin-bottom: 60px; 
-  }
-  
+.key-box {
+  background-color: #FBE9D0;
+  color: #244855;
+  flex: 1 1 45%;
+  min-width: 100px;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: default;
+}
 
-  body > section:nth-of-type(4) {
-    background-color: #90AEAD; 
-  }
+.key-box:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
 
-  @media (max-width: 768px) {
-    .key-sell-section {
-      flex-direction: column;
-      padding: 20px;
-    }
-  
-    .key-sell-left,
-    .key-sell-right {
-      max-width: 100%;
-    }
-  
-    .key-sell-right img {
-      margin-top: 20px;
-    }
-  }
+.key-text h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  border-bottom: 3px solid #E64833;
+  padding-bottom: 0.5rem;
+}
 
-.key-sell-wrapper {
-  background-color: rgba(36, 72, 85, 0.6); 
-  padding: 60px 20px;
-  margin-bottom: 0px;
+.key-text p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.key-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.key-image img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
   border-radius: 8px;
+  display: block;
+}
+
+
+@media (max-width: 768px) {
+  .key-sell-container {
+    flex-direction: column;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .key-box {
+    flex-basis: 100%;
+  }
+
+  .key-image {
+    text-align: center;
+  }
 }

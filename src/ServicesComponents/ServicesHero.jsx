@@ -23,7 +23,7 @@ function ServicesHero() {
             </button>
           </div>
           <div className="services-hero-right">
-            {/* Placeholder box for image */}
+            {('../assets/bg-hero-img.jpg')}
           </div>
         </div>
       </div>
