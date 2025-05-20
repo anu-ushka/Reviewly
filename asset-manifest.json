@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Reviewly/static/css/main.8845272f.css",
+    "main.js": "/Reviewly/static/js/main.392ee0a9.js",
+    "static/media/review_img1.png": "/Reviewly/static/media/review_img1.e1d97c768ae0abfc7753.png",
+    "static/media/review_img2.png": "/Reviewly/static/media/review_img2.8db41969c7d9856c9800.png",
+    "static/media/kartikSir-img.png": "/Reviewly/static/media/kartikSir-img.7d6bc58600d6654d150d.png",
+    "static/media/rahulSir-img.jpeg": "/Reviewly/static/media/rahulSir-img.2db2dd3f28bcc93ef38c.jpeg",
+    "static/media/neerajSir-img.jpeg": "/Reviewly/static/media/neerajSir-img.066c7a706bc68925cf97.jpeg",
+    "static/media/swatiMaam-img.jpeg": "/Reviewly/static/media/swatiMaam-img.bd9f886d0d5643cc150e.jpeg",
+    "static/media/customer3-img.png": "/Reviewly/static/media/customer3-img.595a9320bb4cceaaad58.png",
+    "static/media/bg-hero-img.jpg": "/Reviewly/static/media/bg-hero-img.da0be4e19d29d46689f8.jpg",
+    "static/media/customer4-img.png": "/Reviewly/static/media/customer4-img.45f6c5df32c7721b8a94.png",
+    "static/media/customer5-img.png": "/Reviewly/static/media/customer5-img.dc14085d8c53b3a011a4.png",
+    "static/media/vishalSir-img.jpeg": "/Reviewly/static/media/vishalSir-img.de03643bf832a36e9b96.jpeg",
+    "static/media/customer1-img.png": "/Reviewly/static/media/customer1-img.168ed6d41c2788012293.png",
+    "static/media/customer2-img.png": "/Reviewly/static/media/customer2-img.b8a51f99ce9cd97551b0.png",
+    "static/media/customer6-img.png": "/Reviewly/static/media/customer6-img.528d705394ec546cd40d.png",
+    "index.html": "/Reviewly/index.html",
+    "main.8845272f.css.map": "/Reviewly/static/css/main.8845272f.css.map",
+    "main.392ee0a9.js.map": "/Reviewly/static/js/main.392ee0a9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8845272f.css",
+    "static/js/main.392ee0a9.js"
+  ]
+}
