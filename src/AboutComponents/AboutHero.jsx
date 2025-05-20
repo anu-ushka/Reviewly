@@ -12,24 +12,24 @@ const AboutHero = () => {
           </div>
 
           <div className="about-history">
-            <h2>Our History</h2>
+            <h2>Project Timeline</h2>
             <hr className="history-line" />
             <div className="timeline">
               <div className="timeline-item">
-                <div className="timeline-date">January 2020</div>
-                <div className="timeline-content">Company founded with a mission to bring review transparency.</div>
+                <div className="timeline-date">15 April, 2025</div>
+                <div className="timeline-content">Project's theme and topic assigned</div>
               </div>
               <div className="timeline-item">
-                <div className="timeline-date">June 2021</div>
-                <div className="timeline-content">Launched our first public beta version.</div>
+                <div className="timeline-date">1 May, 2025</div>
+                <div className="timeline-content">Started committing on GitHub</div>
               </div>
               <div className="timeline-item">
-                <div className="timeline-date">March 2022</div>
-                <div className="timeline-content">Reached 10,000+ active users.</div>
+                <div className="timeline-date">7 May, 2025</div>
+                <div className="timeline-content">Mid-evauluation (Progress checked by mentor).</div>
               </div>
               <div className="timeline-item">
-                <div className="timeline-date">October 2023</div>
-                <div className="timeline-content">Expanded to service-based reviews.</div>
+                <div className="timeline-date">Currently</div>
+                <div className="timeline-content">Project in progress</div>
               </div>
             </div>
           </div>
