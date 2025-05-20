@@ -1,17 +1,19 @@
   .team-section {
-    width: 100vw;
+    width: 100%;
     padding: 4rem 1.5rem;
     color: #244855;
-    background-color: #364f30;
+    /* background-color: #90AEAD; */
+    background-color: rgba(36, 72, 85, 0.8);
+
     box-sizing: border-box;
     overflow-x: hidden;
   }
 
   .team-section h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 2rem;
-    color: #874F41;
+    color: #FBE9D0;
     text-align: center;
   }
 

@@ -2,7 +2,7 @@
     background-image: url('../assets/bg-hero-img.jpg'); 
     background-size: cover;
     background-position: center;
-    min-height: 60vh; /* reduced from 100vh to limit height */
+    min-height: 60vh; 
     position: relative;
     margin: 0;
     padding: 0;
@@ -10,7 +10,7 @@
     margin-bottom: 0;
     padding-bottom: 0;
     display: flex;
-    align-items: center; /* vertically center content */
+    align-items: center; 
     justify-content: center;
   }
   
@@ -32,13 +32,13 @@
     max-width: 1200px;
     width: 100%;
     gap: 7rem;
-    overflow: hidden;  /* prevent overflow horizontally */
+    overflow: hidden;  
   }
   
   .about-hero-text {
     flex: 1;
     color: #fff;
-    text-align: left; /* ensure text aligns left */
+    text-align: left;
   }
   
   .about-hero-text h1 {
@@ -50,7 +50,7 @@
   }
   
   .about-hero-text h1:hover {
-    color: #E64833; /* subtle hover effect */
+    color: #E64833;
     cursor: default;
   }
   
@@ -63,7 +63,7 @@
   }
   
   .about-hero-text p:hover {
-    color: #E64833; /* subtle hover effect */
+    color: #E64833;
     cursor: default;
   }
   
@@ -73,9 +73,9 @@
     color: #333;
     padding: 2rem;
     border-radius: 10px;
-    height: auto; /* changed from 100% to auto for flexible height */
+    height: auto;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    overflow: hidden; /* prevent overflow */
+    overflow: hidden;
   }
   
   .about-history h2 {
@@ -121,7 +121,7 @@
     flex: 1;
   }
   
-  /* Responsive fixes */
+
   @media (max-width: 768px) {
     .about-hero-container {
       flex-direction: column;
