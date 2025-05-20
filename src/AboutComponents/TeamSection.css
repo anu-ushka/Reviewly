@@ -2,7 +2,6 @@
     width: 100%;
     padding: 4rem 1.5rem;
     color: #244855;
-    /* background-color: #90AEAD; */
     background-color: rgba(36, 72, 85, 0.8);
 
     box-sizing: border-box;
@@ -49,7 +48,6 @@
     scrollbar-color: #874F41 #f1f1f1;
   }
   
-
   .team-card {
     background: #FBE9D0;
     border-radius: 10px;
