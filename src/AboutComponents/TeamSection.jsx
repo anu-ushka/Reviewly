@@ -2,7 +2,6 @@ import React from 'react';
 import './TeamSection.css';
 
 import vishalSir from '../assets/team/vishalSir-img.jpeg';
-
 import neerajSir from '../assets/team/neerajSir-img.jpeg';
 import kartikSir from '../assets/team/kartikSir-img.png';
 import rahulSir from '../assets/team/rahulSir-img.jpeg';

@@ -1,0 +1,97 @@
+.behind-section {
+    padding: 4rem 2rem;
+    background: #fbe9d0;
+    color: #244855;
+    text-align: center;
+  }
+  
+  .behind-title {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #874F41;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .behind-title:hover {
+    color: #E64833;
+    transform: scale(1.05);
+  }
+  
+  
+  .carousel-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 2rem;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 1rem;
+  }
+  
+  .carousel-card {
+    background: #ffffff;
+    border-radius: 12px;
+    min-width: 80%;
+    display: flex;
+    height: 280px;
+    flex: 0 0 auto;
+    scroll-snap-align: center;
+    box-shadow: 0 jjj5px 15px rgba(0,0,0,0.1);
+    overflow: hidden;
+  }
+  
+  .card-img img {
+    width: 400px;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 2rem;
+    text-align: left;
+    flex: 1;
+  }
+  
+  .card-content h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #e64833;
+  }
+  
+  .card-content p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+  }
+  
+  .author {
+    font-size: 0.95rem;
+    color: #555;
+    display: block;
+    margin-bottom: 1rem;
+  }
+  
+  .read-more {
+    background: #e64833;
+    color: white;
+    border: none;
+    padding: 0.6rem 1.5rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .read-more:hover {
+    background: #c43d28;
+  }
+  
+  @media (max-width: 768px) {
+    .carousel-card {
+      flex-direction: column;
+      min-width: 90%;
+    }
+  
+    .card-img img {
+      width: 100%;
+      height: 200px;
+    }
+  }
+  
