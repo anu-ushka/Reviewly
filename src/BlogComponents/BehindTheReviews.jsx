@@ -4,7 +4,6 @@ import aiPoweredImg from '../assets/blogsImages/ai-powered-img.png';
 import topReviewerImg from '../assets/blogsImages/top-reviewer-img.png';
 import honestFeedbackImg from '../assets/blogsImages/honest-feedback-img.png';
 
-
 const blogPosts = [
   {
     title: "How We Ensure Honest Feedback",
@@ -30,17 +29,17 @@ const BehindTheReviews = () => {
   return (
     <section className="behind-section">
       <h2 className="behind-title">Behind the Reviews</h2>
-      <div className="carousel-container">
+      <div className="behind-carousel-container">
         {blogPosts.map((post, index) => (
-          <div className="carousel-card" key={index}>
-            <div className="card-img">
+          <div className="behind-carousel-card" key={index}>
+            <div className="behind-card-img">
               <img src={post.image} alt={post.title} />
             </div>
-            <div className="card-content">
+            <div className="behind-card-content">
               <h3>{post.title}</h3>
               <p>{post.description}</p>
-              <span className="author">By {post.author}</span>
-              <button className="read-more">Read More</button>
+              <span className="behind-author">By {post.author}</span>
+              <button className="behind-read-more">Read More</button>
             </div>
           </div>
         ))}
