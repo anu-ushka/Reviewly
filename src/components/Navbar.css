@@ -30,6 +30,15 @@
   text-decoration: none;
   color: #FBE9D0;
   font-weight: 500;
+  position: relative;
+}
+
+/* Highlight current page */
+.nav-links a.nav-active {
+  font-weight: 600;
+  color: #ffffff;
+  border-bottom: 2px solid #FBE9D0;
+  padding-bottom: 2px;
 }
 
 .auth-buttons {
@@ -73,5 +82,4 @@
   .auth-buttons {
     display: none;
   }
-
 }
