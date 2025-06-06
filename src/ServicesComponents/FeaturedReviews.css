@@ -2,7 +2,7 @@
   width: 100vw;
   background-color: #244855;
   padding: 3rem 1rem;
-  color: #244855;
+  background-color: rgba(36, 72, 85, 0.6);
   box-sizing: border-box;
   overflow-x: hidden;
 }
@@ -12,7 +12,7 @@
   margin: 0 auto 2rem;
   font-size: 2rem;
   font-weight: bold;
-  color: #E64833;
+  color: #202020;
 }
 
 .reviews-carousel {
