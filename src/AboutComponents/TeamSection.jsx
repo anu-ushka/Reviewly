@@ -4,8 +4,10 @@ import './TeamSection.css';
 import vishalSir from '../assets/team/vishalSir-img.jpeg';
 import neerajSir from '../assets/team/neerajSir-img.jpeg';
 import kartikSir from '../assets/team/kartikSir-img.png';
+import bhaveshSir from '../assets/team/bhaveshSir-img.jpeg';
 import rahulSir from '../assets/team/rahulSir-img.jpeg';
 import swatiMaam from '../assets/team/swatiMaam-img.jpeg';
+
 
 
 const teamMembers = [
@@ -32,13 +34,20 @@ const teamMembers = [
   },
   {
     id: 4,
+    name: "Bhavesh Sir",
+    role: 'Subject Guide',
+    photo: bhaveshSir,
+    bio: 'Clarified technical doubts that helped me fix key bugs in the app.',
+  },
+  {
+    id: 5,
     name: "Rahul Sir",
     role: 'Subject Guide',
     photo: rahulSir,
     bio: 'Clarified technical doubts that helped me fix key bugs in the app.',
   },
   {
-    id: 5,
+    id: 6,
     name: "Swati Ma'am",
     role: 'Subject Guide',
     photo: swatiMaam,
