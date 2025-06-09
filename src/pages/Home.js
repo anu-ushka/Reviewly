@@ -22,23 +22,3 @@ const Home = () => {
 };
 
 export default Home;
-
-
-// import React from 'react';
-// import HeroSection from './HeroSection';
-// import KeySellingPoints from './KeySellingPoints';
-// import TestimonialsSection from './TestimonialsSection';
-// import Footer from './Footer';
-
-// const Home = () => {
-//   return (
-//     <>
-//       <HeroSection />
-//       <KeySellingPoints />
-//       <TestimonialsSection />
-//       <Footer />
-//     </>
-//   );
-// };
-
-// export default Home;
