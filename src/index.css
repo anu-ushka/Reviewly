@@ -6,7 +6,7 @@
   }
   
 
-  /* This will remove any default margin, padding, or borders from the root */
+
 * {
   margin: 0;
   padding: 0;
@@ -14,8 +14,7 @@
   border: none;
 }
 
-/* Optional: Ensure body takes full width and height */
 body {
-  background-color: #fff; /* or your theme background */
+  background-color: #fff;
   overflow-x: hidden;
 }
