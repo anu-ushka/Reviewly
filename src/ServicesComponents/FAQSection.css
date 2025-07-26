@@ -1,13 +1,12 @@
 .faq-section {
     width: 100%;
-    /* background-color: rgba(36, 72, 85, 0.6); */
     background-color: #244855;
     padding: 2rem 1.5rem;
     box-sizing: border-box;
   }
   
   .faq-content {
-    max-width: 800px;
+    max-width: 500px;
     margin: 0 auto;
     background: #ffffff;
     border-radius: 12px;
