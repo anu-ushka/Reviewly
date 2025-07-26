@@ -5,3 +5,17 @@
     font-family: 'Red Hat Display', sans-serif;
   }
   
+
+  /* This will remove any default margin, padding, or borders from the root */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+/* Optional: Ensure body takes full width and height */
+body {
+  background-color: #fff; /* or your theme background */
+  overflow-x: hidden;
+}
