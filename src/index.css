@@ -5,7 +5,11 @@
     font-family: 'Red Hat Display', sans-serif;
   }
   
-
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
 * {
   margin: 0;

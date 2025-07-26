@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 .auth-container {
   display: flex;
   justify-content: center;
@@ -12,12 +18,9 @@
   padding: 2.5rem;
   border-radius: 12px;
   box-shadow: 0 0 10px rgba(36, 72, 85, 0.2);
-  width: 100%;
-  max-width: 350px;
-  min-height: 360px; /* Ensures consistent height */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  width: 90vw;
+  max-width: 500px;
+  overflow: hidden;
 }
 
 .auth-form h2 {
@@ -27,12 +30,13 @@
 }
 
 .auth-form input {
-  width: 325px;
+  width: 100%;
   padding: 12px;
   margin-bottom: 1rem;
   border: 1px solid #ccc;
   border-radius: 6px;
   font-size: 1rem;
+  display: block;
 }
 
 .auth-form button {
@@ -45,6 +49,7 @@
   border-radius: 6px;
   cursor: pointer;
   font-size: 1rem;
+  display: block;
 }
 
 .auth-form button:hover {

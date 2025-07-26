@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './Login.css';
 import { signInWithEmailAndPassword, signInWithPopup } from 'firebase/auth';
 import { auth, provider } from '../firebase';
 import { Link } from 'react-router-dom';
