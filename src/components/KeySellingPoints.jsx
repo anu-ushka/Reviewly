@@ -9,7 +9,7 @@ const KeySellingPoints = () => {
       <div className="key-sell-container">
         <div className="key-box">
           <div className="key-text">
-            <h3>Honest Reviews from Real Users</h3>
+            <h3>Honest Reviews</h3>
             <p>
               Gain insights from genuine user experiences to make confident buying decisions—no fake or paid reviews.
             </p>
