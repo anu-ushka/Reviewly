@@ -28,3 +28,14 @@
     transform: scale(1.05);
   }
   
+
+  @media (max-width: 600px) {
+  .info-box {
+    font-size: 1rem;
+    padding: 20px 16px;
+  }
+
+  .info-box-wrapper {
+    padding: 0 10px;
+  }
+}

@@ -1,9 +1,8 @@
   .team-section {
     width: 100%;
-    padding: 4rem 1.5rem;
+    padding: 3rem 1.5rem;
     color: #244855;
     background-color: rgba(36, 72, 85, 0.8);
-
     box-sizing: border-box;
     overflow-x: hidden;
   }
@@ -24,13 +23,12 @@
 .team-carousel {
   display: flex;
   overflow-x: auto;
-  gap: 2.5rem;
-  padding-bottom: 1rem;
+  gap: 2.8rem;
+  padding: 1rem 0.5rem 1rem 0rem;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
-  padding-left: 0rem;
-  padding-right: 0.5rem;
 }
+
   
   .team-carousel::-webkit-scrollbar {
     height: 8px;
@@ -88,7 +86,7 @@
 
   .team-role {
     font-size: 1.1rem;
-    font-weight: 600;
+    font-weight: 400;
     color: #E64833;
     margin-bottom: 0.8rem;
     text-align: center;
@@ -96,7 +94,7 @@
   
 
   .team-bio {
-    font-size: 1rem;
+    font-size: 0.9rem;
     text-align: center;
     color: #244855;
     line-height: 1.4;

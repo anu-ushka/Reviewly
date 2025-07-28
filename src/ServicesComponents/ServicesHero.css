@@ -8,11 +8,11 @@
   justify-content: center;
   position: relative;
   color: #fff;
-  overflow: hidden; /* prevent scrollbars from overlay overflow */
+  overflow: hidden;
 }
 
 .services-hero-overlay {
-  position: absolute; /* ⬅️ key to make it cover the entire hero */
+  position: absolute; 
   top: 0;
   left: 0;
   width: 100%;

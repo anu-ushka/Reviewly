@@ -16,15 +16,14 @@
   }
   
   
-  .testimonials-carousel {
-    display: flex;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    gap: 20px;
-    padding-bottom: 10px;
-    scroll-behavior: smooth;
-  }
-  
+.testimonials-carousel {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 20px;
+  padding: 10px 0 10px 0;
+  scroll-behavior: smooth;
+}
 
   .testimonial-card {
     background-color: #FBE9D0; 

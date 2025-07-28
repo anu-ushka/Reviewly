@@ -31,3 +31,23 @@
 .search-button:hover {
   background-color: #874F41;
 }
+
+
+@media (max-width: 768px) {
+  .search-bar-container {
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 40px;
+  }
+
+  .search-input {
+    border-radius: 30px;
+    max-width: 90%;
+    width: 90%;
+  }
+
+  .search-button {
+    border-radius: 30px;
+    width: 90%;
+  }
+}

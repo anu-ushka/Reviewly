@@ -82,3 +82,30 @@
     background-color: #874F41;
   }
   
+  @media (max-width: 768px) {
+  .feedback-section {
+    flex-direction: column;
+    height: auto;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .feedback-left,
+  .feedback-right {
+    max-width: 100%;
+    width: 100%;
+    padding: 20px 10px;
+  }
+
+  .feedback-left h1 {
+    font-size: 2rem;
+  }
+
+  .feedback-left p {
+    font-size: 1rem;
+  }
+
+  .feedback-right {
+    margin-top: 20px;
+  }
+}

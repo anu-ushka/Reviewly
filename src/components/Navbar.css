@@ -108,3 +108,50 @@
   background-color: #244855;
   color: #FBE9D0;
 }
+
+.menu-toggle {
+  display: none;
+  font-size: 1.8rem;
+  color: #FBE9D0;
+  cursor: pointer;
+}
+
+.mobile-auth {
+  display: none;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #244855;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .desktop-auth {
+    display: none;
+  }
+
+  .mobile-auth {
+    display: flex;
+  }
+
+  .nav-links a {
+    padding: 0.5rem 0;
+  }
+}
