@@ -223,3 +223,47 @@
 .star-rating .star.filled {
   color: #E64833;
 }
+
+@media (max-width: 600px) {
+  .review-detail {
+    padding: 1rem;
+  }
+
+  .review-detail-text {
+    flex: 1 1 100%;
+  }
+
+  .review-detail-image {
+    flex: 1 1 100%;
+    margin-top: 1rem;
+  }
+
+  .review-input textarea {
+    width: 100%;
+  }
+
+  .review-input {
+    padding: 0.8rem;
+  }
+
+  .review-input button {
+    width: 100%;
+  }
+
+  .review-card {
+    flex: 0 0 140px;
+  }
+
+  .review-title {
+    font-size: 0.85rem;
+  }
+
+  .review-snippet {
+    font-size: 0.75rem;
+  }
+
+  .featured-reviews-section > h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
