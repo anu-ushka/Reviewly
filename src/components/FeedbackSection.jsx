@@ -1,24 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './FeedbackSection.css';
 
 const FeedbackSection = () => {
-  const [form, setForm] = useState({
-    name: '',
-    email: '',
-    message: ''
-  });
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setForm({
-      ...form,
-      [name]: value
-    });
-  };
-
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(form);
+    alert('Thank you for your feedback!');
   };
 
   return (
@@ -33,23 +19,17 @@ const FeedbackSection = () => {
             type="text"
             name="name"
             placeholder="Your Name"
-            value={form.name}
-            onChange={handleChange}
             required
           />
           <input
             type="email"
             name="email"
             placeholder="Your Email"
-            value={form.email}
-            onChange={handleChange}
             required
           />
           <textarea
             name="message"
             placeholder="Your Message"
-            value={form.message}
-            onChange={handleChange}
             required
           />
           <button type="submit">Submit</button>

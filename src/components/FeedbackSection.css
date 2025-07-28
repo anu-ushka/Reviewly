@@ -40,7 +40,7 @@
   
   .feedback-right {
     flex: 1;
-    max-width: 50%;
+    max-width: 45%;
     padding: 20px;
     background-color: rgba(36, 72, 85, 0.8);
     border-radius: 10px;
